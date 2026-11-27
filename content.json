@@ -446,7 +446,7 @@
         "haut",
         "bas"
       ],
-      "verifie": false,
+      "verifie": true,
       "spoiler": false,
       "nom_en": "Vehicle strength",
       "defi_en": "Kill 25 enemies with a vehicle.",
@@ -628,7 +628,7 @@
         "droite",
         "haut"
       ],
-      "verifie": false,
+      "verifie": true,
       "spoiler": false,
       "defi_en": "Discover it in the Progress menu.",
       "astuce_en": "Combo to be confirmed: reported by a single source so far."
@@ -638,7 +638,7 @@
       "nom": "HVY Bulldozer",
       "categorie": "vehicules",
       "defi": "Le découvrir dans la Progression.",
-      "astuce": "Combinaison contestée : deux sources récentes l’attribuent au Lapwing Mallard. À vérifier en jeu.",
+      "astuce": "Conflit d’attribution tranché fin novembre 2026 : cette séquence appartient bien au Bulldozer (le Mallard reste sans code connu).",
       "saisie_ps5": [
         "gauche",
         "haut",
@@ -659,10 +659,10 @@
         "droite",
         "bas"
       ],
-      "verifie": false,
+      "verifie": true,
       "spoiler": false,
       "defi_en": "Discover it in the Progress menu.",
-      "astuce_en": "Disputed combo: two recent sources attribute it to the Lapwing Mallard. Verify in game."
+      "astuce_en": "Attribution conflict settled in late November 2026: this sequence does belong to the Bulldozer (the Mallard still has no known code)."
     },
     {
       "id": "code-vehicule-ambulance-interstate",
@@ -779,31 +779,13 @@
       "nom": "Lapwing Mallard",
       "categorie": "vehicules",
       "defi": "Terminer 5 défis de véhicule.",
-      "astuce": "Attribuée au Mallard par deux sources récentes — mais GTASide donnait cette même combinaison au HVY Bulldozer. Conflit à trancher en jeu.",
-      "saisie_ps5": [
-        "gauche",
-        "haut",
-        "droite",
-        "bas",
-        "gauche",
-        "droite",
-        "droite",
-        "bas"
-      ],
-      "saisie_xbox": [
-        "gauche",
-        "haut",
-        "droite",
-        "bas",
-        "gauche",
-        "droite",
-        "droite",
-        "bas"
-      ],
+      "astuce": "Combinaison pas encore découverte. La séquence un temps attribuée au Mallard appartient en réalité au HVY Bulldozer (confusion d’un guide, tranchée fin novembre 2026).",
+      "saisie_ps5": [],
+      "saisie_xbox": [],
       "verifie": false,
       "spoiler": false,
       "defi_en": "Complete 5 vehicle challenges.",
-      "astuce_en": "Attributed to the Mallard by two recent sources — but GTASide gave this same combo to the HVY Bulldozer. Conflict to settle in game."
+      "astuce_en": "Combo not discovered yet. The sequence once attributed to the Mallard actually belongs to the HVY Bulldozer (a guide mix-up, settled in late November 2026)."
     },
     {
       "id": "code-vehicule-emerus",
@@ -933,7 +915,7 @@
         "droite",
         "droite"
       ],
-      "verifie": false,
+      "verifie": true,
       "spoiler": false,
       "defi_en": "Discover Martha's Vamos in the Progress menu.",
       "astuce_en": "Combo to be confirmed: reported by a single source so far."
@@ -968,7 +950,7 @@
         "bas",
         "droite"
       ],
-      "verifie": false,
+      "verifie": true,
       "spoiler": false,
       "defi_en": "Spend 8 hours with your partner.",
       "astuce_en": "Combo to be confirmed: reported by a single source so far. The “partner” is the other protagonist (Jason ↔ Lucia): no other romances in the game. The bond has 4 levels (“Running on Empty” to “Hot Together”) and rises via hugs, texts, outings."
@@ -1003,7 +985,7 @@
         "gauche",
         "droite"
       ],
-      "verifie": false,
+      "verifie": true,
       "spoiler": false,
       "defi_en": "Pull off 50 robberies with your partner.",
       "astuce_en": "Combo to be confirmed: reported by a single source so far. The “partner” is the other protagonist (Jason ↔ Lucia): no other romances in the game. The bond has 4 levels (“Running on Empty” to “Hot Together”) and rises via hugs, texts, outings."
@@ -1205,12 +1187,13 @@
       "region": "histoire",
       "zone": "",
       "description": "Mission 3 sur 91 · EN : « Gear Up »",
-      "indice": "",
+      "indice": "Chez l’armurier, privilégie un fusil ou un fusil à pompe plutôt qu’un pistolet : c’est l’achat le plus rentable du début de partie.",
       "chapitre": 1,
       "spoiler": false,
       "verifie": false,
       "titre_en": "Gear Up",
-      "description_en": "Mission 3 of 91."
+      "description_en": "Mission 3 of 91.",
+      "indice_en": "At the gun shop, favor a rifle or shotgun over a pistol: it’s the best early-game purchase."
     },
     {
       "id": "mission-004-just-a-scratch",
@@ -1276,12 +1259,13 @@
       "region": "histoire",
       "zone": "",
       "description": "Mission 8 sur 91 · EN : « Hey Arnold! »",
-      "indice": "",
+      "indice": "Choix en fin de mission : épargner ou tuer Arnold. Les deux options terminent la mission avec la même récompense immédiate, mais épargner Arnold évite un malus au profil criminel de Jason. Le mode Focus aide pendant la poursuite.",
       "chapitre": 1,
       "spoiler": false,
       "verifie": false,
       "titre_en": "Hey Arnold!",
-      "description_en": "Mission 8 of 91."
+      "description_en": "Mission 8 of 91.",
+      "indice_en": "End-of-mission choice: spare or kill Arnold. Both options finish the mission with the same immediate reward, but sparing Arnold avoids a hit to Jason’s Criminal Profile. Focus Mode helps during the chase."
     },
     {
       "id": "mission-009-island-dreams",
@@ -1334,12 +1318,13 @@
       "region": "histoire",
       "zone": "",
       "description": "Mission 12 sur 91 · EN : « Buck Me »",
-      "indice": "",
+      "indice": "Débloque l’app bancaire BuckMe avec 100 $ de dépôt de bienvenue. Attention : l’argent placé en épargne familiale ne peut plus être retiré (plafond de 5 000 $ au chapitre 1) — mais cette épargne compte pour la meilleure fin.",
       "chapitre": 1,
       "spoiler": false,
       "verifie": false,
       "titre_en": "Buck Me",
-      "description_en": "Mission 12 of 91."
+      "description_en": "Mission 12 of 91.",
+      "indice_en": "Unlocks the BuckMe banking app with a $100 welcome deposit. Careful: money put into Family Savings can never be withdrawn ($5,000 cap in Chapter 1) — but that savings account counts toward the best ending."
     },
     {
       "id": "mission-013-clean-up-after-donnie",
@@ -1376,12 +1361,13 @@
       "region": "histoire",
       "zone": "",
       "description": "Mission 15 sur 91 · EN : « Clear Skies »",
-      "indice": "",
+      "indice": "C’est un point de bascule discret du chapitre 1 : vends tout ton stock à Donnie avant de la lancer, car son point de vente ne revient pas ensuite.",
       "chapitre": 1,
       "spoiler": false,
       "verifie": false,
       "titre_en": "Clear Skies",
-      "description_en": "Mission 15 of 91."
+      "description_en": "Mission 15 of 91.",
+      "indice_en": "A quiet Chapter 1 cutoff: sell everything you’re holding to Donnie before starting it, because his drop-off point doesn’t come back afterwards."
     },
     {
       "id": "mission-016-day-release",
@@ -1510,12 +1496,13 @@
       "region": "histoire",
       "zone": "",
       "description": "Mission 24 sur 91 · EN : « Ambulance Chaser »",
-      "indice": "",
+      "indice": "Va à la grange à l’est du Starlet Motel ; quand on vole l’ambulance, saute sur le quad voisin et poursuis-la jusqu’au crash avant de la détruire. Ne gaspille pas de munitions pour tenter de l’arrêter pendant la course.",
       "chapitre": 2,
       "spoiler": false,
       "verifie": false,
       "titre_en": "Ambulance Chaser",
-      "description_en": "Mission 24 of 91."
+      "description_en": "Mission 24 of 91.",
+      "indice_en": "Head to the barn east of the Starlet Motel; when the ambulance gets stolen, hop on the nearby quad and chase it until it crashes, then destroy it. Don’t waste ammo trying to stop it mid-chase."
     },
     {
       "id": "mission-025-just-moved-in",
@@ -1553,12 +1540,13 @@
       "region": "histoire",
       "zone": "",
       "description": "Mission 27 sur 91.",
-      "indice": "",
+      "indice": "Après « Girls’ Trip » : amène une voiture au garage de Moses, scanne les trois voitures de la cour avec l’app WAiNK (elle indique le type de traceur), puis récupère le Slim Jim. Moses refuse les voitures pistées et celles volées trop près de sa boutique : pique-en une sur la route principale de Port Gellhorn.",
       "chapitre": 2,
       "spoiler": false,
       "verifie": false,
       "titre_en": "Moses",
-      "description_en": "Mission 27 of 91."
+      "description_en": "Mission 27 of 91.",
+      "indice_en": "After “Girls’ Trip”: bring a car to Moses’s garage, scan the three cars in the yard with the WAiNK app (it shows the tracker type), then grab the Slim Jim. Moses refuses tracked cars and ones stolen too close to his shop: grab one on Port Gellhorn’s main road."
     },
     {
       "id": "mission-028-daily-driver",
@@ -1597,12 +1585,13 @@
       "region": "histoire",
       "zone": "",
       "description": "Mission 30 sur 91 · EN : « Breakfast Run »",
-      "indice": "",
+      "indice": "Jason redevient jouable ici après son appel au motel. Enchaînement de trois braquages express : le diner à gaufres, puis le magasin d’alcool et la friperie.",
       "chapitre": 2,
       "spoiler": false,
       "verifie": false,
       "titre_en": "Breakfast Run",
-      "description_en": "Mission 30 of 91."
+      "description_en": "Mission 30 of 91.",
+      "indice_en": "Jason becomes playable again here after his call at the motel. A chain of three quick stick-ups: the waffle diner, then the liquor store and the thrift store."
     },
     {
       "id": "mission-031-coffee-break",
@@ -1611,12 +1600,13 @@
       "region": "histoire",
       "zone": "",
       "description": "Mission 31 sur 91 · EN : « Coffee Break »",
-      "indice": "",
+      "indice": "Mission minuscule : achète un café (2 $) à la machine de la cuisine du motel. C’est elle qui débloque le changement libre entre Jason et Lucia et ouvre les jobs optionnels du chapitre.",
       "chapitre": 2,
       "spoiler": false,
       "verifie": false,
       "titre_en": "Coffee Break",
-      "description_en": "Mission 31 of 91."
+      "description_en": "Mission 31 of 91.",
+      "indice_en": "Tiny mission: buy a coffee ($2) at the motel kitchen machine. It unlocks free switching between Jason and Lucia and opens the chapter’s optional jobs."
     },
     {
       "id": "mission-032-afternoon-delight",
@@ -1625,12 +1615,13 @@
       "region": "histoire",
       "zone": "",
       "description": "Mission 32 sur 91 · EN : « Afternoon Delight »",
-      "indice": "",
+      "indice": "Vicki vous envoie braquer le club de Frankie Delight ; un choix se présente en coulisses. Les 10 000 $ ne tombent que le lendemain — pense-s-y si tu économises pour « Prepare for Vice City », le vrai verrou du chapitre.",
       "chapitre": 2,
       "spoiler": false,
       "verifie": false,
       "titre_en": "Afternoon Delight",
-      "description_en": "Mission 32 of 91."
+      "description_en": "Mission 32 of 91.",
+      "indice_en": "Vicki sends you to rob Frankie Delight’s club; a choice comes up backstage. The $10,000 only arrives the next day — keep that in mind if you’re saving for “Prepare for Vice City”, the chapter’s real gate."
     },
     {
       "id": "mission-033-checking-out",
@@ -1684,12 +1675,13 @@
       "region": "histoire",
       "zone": "",
       "description": "Mission 36 sur 91 · EN : « Meet the Heders »",
-      "indice": "",
+      "indice": "Dîner avec Brian et Lori, puis direction les docks : avec Lucia, conduis le van jusqu’aux conteneurs et ouvre le bon avec l’outil de découpe (récompense : le Cut-off Tool). Si tu cherches une voiture dans les piles de conteneurs, tu fais fausse route — ce n’est pas elle l’objectif.",
       "chapitre": 3,
       "spoiler": false,
       "verifie": false,
       "titre_en": "Meet the Heders",
-      "description_en": "Mission 36 of 91."
+      "description_en": "Mission 36 of 91.",
+      "indice_en": "Dinner with Brian and Lori, then the dockyard: as Lucia, drive the van to the containers and open the right one with the cutting tool (reward: the Cut-off Tool). If you’re hunting for a car in the container stacks you’re off track — the car isn’t the point."
     },
     {
       "id": "mission-037-dubious-provenance",
@@ -1742,12 +1734,13 @@
       "region": "histoire",
       "zone": "",
       "description": "Mission 40 sur 91.",
-      "indice": "",
+      "indice": "Une des missions les plus courtes du jeu, réservée à Jason : passe par le passage éclairé au pied de l’immeuble et frappe à la porte de Tyrone. L’accueil dépend de ton choix dans « Dealer’s Choice », mais la rencontre a lieu quoi qu’il arrive et lance « Here, Kitty Kitty ».",
       "chapitre": 3,
       "spoiler": false,
       "verifie": false,
       "titre_en": "Tyrone",
-      "description_en": "Mission 40 of 91."
+      "description_en": "Mission 40 of 91.",
+      "indice_en": "One of the shortest missions in the game, Jason only: take the lit passage at the base of the building and knock on Tyrone’s door. The welcome depends on your “Dealer’s Choice” pick, but the meeting happens either way and sets up “Here, Kitty Kitty”."
     },
     {
       "id": "mission-041-here-kitty-kitty",
@@ -1771,12 +1764,13 @@
       "region": "histoire",
       "zone": "",
       "description": "Mission 42 sur 91 · EN : « Car Service »",
-      "indice": "",
+      "indice": "Avec Lucia, vole la Schafter V12 dans le chop shop, sème la poursuite et livre-la à Leonida Auto World : 3 000 $ de Randy. Finir la mission débloque la vente et l’enregistrement de voitures volées chez Randy.",
       "chapitre": 3,
       "spoiler": false,
       "verifie": false,
       "titre_en": "Car Service",
-      "description_en": "Mission 42 of 91."
+      "description_en": "Mission 42 of 91.",
+      "indice_en": "As Lucia, steal the Schafter V12 from the chop shop, lose the pursuit and deliver it to Leonida Auto World: $3,000 from Randy. Finishing it unlocks selling and registering stolen cars with Randy."
     },
     {
       "id": "mission-043-top-billing",
@@ -1785,12 +1779,13 @@
       "region": "histoire",
       "zone": "",
       "description": "Mission 43 sur 91 · EN : « Top Billing »",
-      "indice": "",
+      "indice": "Soirée de Dre’Quan au Jack of Hearts : retrouve les Dimez, suis Roxy, commande chez Peewees, puis avec Jason coupe le courant de la fête de Kamal via le boîtier électrique vert près du trottoir — la maison se vide d’elle-même. Source unique, à confirmer.",
       "chapitre": 3,
       "spoiler": false,
       "verifie": false,
       "titre_en": "Top Billing",
-      "description_en": "Mission 43 of 91."
+      "description_en": "Mission 43 of 91.",
+      "indice_en": "Dre’Quan’s night at the Jack of Hearts: find the Dimez, follow Roxy, order at Peewees, then as Jason cut the power at Kamal’s party via the green electrical box by the curb — the house empties on its own. Single source, to be confirmed."
     },
     {
       "id": "mission-044-boobie-time",
@@ -1799,12 +1794,13 @@
       "region": "histoire",
       "zone": "",
       "description": "Mission 44 sur 91.",
-      "indice": "",
+      "indice": "Jason conduit Boobie pour sa tournée de collecte entre North Vice Avenue et Rockridge ; quand des gamins piquent sa voiture, rattrape-les, puis rejoins le receleur au smoke shop. Peut se faire avant « Tyrone » ou après « Here, Kitty Kitty ». Source unique, à confirmer.",
       "chapitre": 3,
       "spoiler": false,
       "verifie": false,
       "titre_en": "Boobie Time",
-      "description_en": "Mission 44 of 91."
+      "description_en": "Mission 44 of 91.",
+      "indice_en": "Jason drives Boobie on his money run through North Vice Avenue and Rockridge; when kids take his car, chase them down, then meet the fence at the smoke shop. Can be done before “Tyrone” or after “Here, Kitty Kitty”. Single source, to be confirmed."
     },
     {
       "id": "mission-045-first-impressions",
@@ -1813,12 +1809,13 @@
       "region": "histoire",
       "zone": "",
       "description": "Mission 45 sur 91 · EN : « First Impressions »",
-      "indice": "",
+      "indice": "Récupère la Schafter V12 demandée par Raul (le garage s’ouvre avec un code trouvé en jeu, non affiché ici) et sers de leurre pendant son braquage. Après le saut du pont, brûle la voiture au parking des Redwood Suites, prends le van et dépose Raul près du Dynamix Gym à Bayside. 3 000 $ à la clé.",
       "chapitre": 3,
       "spoiler": false,
       "verifie": false,
       "titre_en": "First Impressions",
-      "description_en": "Mission 45 of 91."
+      "description_en": "Mission 45 of 91.",
+      "indice_en": "Pick up the Schafter V12 Raul asks for (the garage opens with a code found in game, not shown here) and act as the decoy for his bank robbery. After the bridge jump, torch the car in the Redwood Suites parking, take the van and drop Raul near Dynamix Gym in Bayside. $3,000 reward."
     },
     {
       "id": "mission-046-caught-slipping",
@@ -1857,12 +1854,13 @@
       "region": "histoire",
       "zone": "",
       "description": "Mission 48 sur 91 · EN : « Credit Check »",
-      "indice": "",
+      "indice": "Raul envoie le duo braquer trois banques Fleeca (Jason et Lucia ensemble obligatoire). Récompense clé : le Dye Pack Jammer, qui neutralise les packs de teinture sur les billets volés. Si une alarme sonne, tu as environ 20 secondes avant la première patrouille : prends ce que tu as et file. Paiement discuté (6 000 $ ou 9 000 $ selon les sources).",
       "chapitre": 3,
       "spoiler": false,
       "verifie": false,
       "titre_en": "Credit Check",
-      "description_en": "Mission 48 of 91."
+      "description_en": "Mission 48 of 91.",
+      "indice_en": "Raul sends the duo to rob three Fleeca banks (Jason and Lucia together required). Key reward: the Dye Pack Jammer, which stops security dye packs ruining stolen notes. If an alarm trips you have about 20 seconds before the first patrol: take what you have and go. Payout disputed ($6,000 or $9,000 depending on the source)."
     },
     {
       "id": "mission-049-steal-the-zorrusso-for-randy",
@@ -1915,12 +1913,13 @@
       "region": "histoire",
       "zone": "",
       "description": "Mission 52 sur 91 · EN : « Ride or Die »",
-      "indice": "",
+      "indice": "Se débloque après « Credit Check » : attends que Dre’Quan contacte Jason, et présente-toi seul — Jason doit être sans Lucia pour lancer la mission.",
       "chapitre": 3,
       "spoiler": false,
       "verifie": false,
       "titre_en": "Ride or Die",
-      "description_en": "Mission 52 of 91."
+      "description_en": "Mission 52 of 91.",
+      "indice_en": "Unlocks after “Credit Check”: wait for Dre’Quan to contact Jason, and show up alone — Jason must be without Lucia to start it."
     },
     {
       "id": "mission-053-company-property",
@@ -1929,12 +1928,13 @@
       "region": "histoire",
       "zone": "",
       "description": "Mission 53 sur 91 · EN : « Company Property »",
-      "indice": "",
+      "indice": "Livraison d’armes avec Brian qui tourne mal quand des agents prennent d’assaut l’aérodrome ; la mission se termine par un atterrissage forcé de l’avion que tu pilotes. Source unique, à confirmer.",
       "chapitre": 3,
       "spoiler": false,
       "verifie": false,
       "titre_en": "Company Property",
-      "description_en": "Mission 53 of 91."
+      "description_en": "Mission 53 of 91.",
+      "indice_en": "A weapons delivery with Brian that goes wrong when agents raid the airfield; the mission ends with you crash-landing the plane. Single source, to be confirmed."
     },
     {
       "id": "mission-054-the-missing-link",
@@ -1943,12 +1943,13 @@
       "region": "histoire",
       "zone": "",
       "description": "Mission 54 sur 91 · EN : « The Missing Link »",
-      "indice": "",
+      "indice": "Va seule avec Lucia au Sloppy Molly’s à Watson Bay, puis interroge Monty, l’homme de main du cartel. Son pistolet est une récompense manquable : ramasse-le pendant la mission, il n’y a pas de seconde chance. Pour le bonus Professionnel, ne tue pas Monty (le poser à terre ou le lâcher dans la piscine termine la mission dans les deux cas).",
       "chapitre": 3,
       "spoiler": false,
       "verifie": false,
       "titre_en": "The Missing Link",
-      "description_en": "Mission 54 of 91."
+      "description_en": "Mission 54 of 91.",
+      "indice_en": "Go alone as Lucia to Sloppy Molly’s in Watson Bay, then interrogate Monty, the cartel enforcer. His pistol is a missable reward: grab it during the mission, there’s no second chance. For the Professional bonus don’t kill Monty (setting him down or dropping him in the pool both end the mission)."
     },
     {
       "id": "mission-055-safe-word",
@@ -1972,12 +1973,13 @@
       "region": "histoire",
       "zone": "",
       "description": "Mission 56 sur 91.",
-      "indice": "",
+      "indice": "Lucia aide Dre’Quan et les Real Dimez à tourner leur clip : drift, bagarre et peinture de la voiture, puis fuite devant le crew du propriétaire et dépôt au studio. Échec si la voiture est détruite ou si une des Dimez est éjectée dans un gros crash : conduis nerveux mais propre.",
       "chapitre": 3,
       "spoiler": false,
       "verifie": false,
       "titre_en": "Cooties",
-      "description_en": "Mission 56 of 91."
+      "description_en": "Mission 56 of 91.",
+      "indice_en": "Lucia helps Dre’Quan and the Real Dimez film their video: drifting, fighting and painting the car, then escaping the owner’s crew and dropping the car at the studio. You fail if the car is destroyed or one of the Dimez gets thrown out in a big crash: drive hard but clean."
     },
     {
       "id": "mission-057-bricked-up",
@@ -2031,12 +2033,13 @@
       "region": "histoire",
       "zone": "",
       "description": "Mission 60 sur 91.",
-      "indice": "",
+      "indice": "Ouverture tranquille du chapitre 4 : entre dans le hall, retrouve Valentina, suis-la jusqu’à l’ascenseur et monte au 7ᵉ étage jusqu’à la chambre 701, votre nouvelle suite. Rien à rater.",
       "chapitre": 4,
       "spoiler": false,
       "verifie": false,
       "titre_en": "Ocean Beach",
-      "description_en": "Mission 60 of 91."
+      "description_en": "Mission 60 of 91.",
+      "indice_en": "Easy Chapter 4 opener: enter the lobby, meet Valentina, follow her to the elevator and ride to the seventh floor, Room 701 — your new suite. Nothing to miss."
     },
     {
       "id": "mission-061-another-life",
@@ -2045,12 +2048,13 @@
       "region": "histoire",
       "zone": "",
       "description": "Mission 61 sur 91 · EN : « Another Life »",
-      "indice": "",
+      "indice": "Flashback joué avec Lucia : prends le téléphone sur la table, puis soulève Tomás de son berceau et porte-le au salon. Mission narrative, sans difficulté. Source unique, à confirmer.",
       "chapitre": 4,
       "spoiler": false,
       "verifie": false,
       "titre_en": "Another Life",
-      "description_en": "Mission 61 of 91."
+      "description_en": "Mission 61 of 91.",
+      "indice_en": "Flashback played as Lucia: take the phone from the table, then lift Tomás from the crib and carry him to the living room. A narrative mission with no challenge. Single source, to be confirmed."
     },
     {
       "id": "mission-062-company-cars",
@@ -2059,12 +2063,13 @@
       "region": "histoire",
       "zone": "",
       "description": "Mission 62 sur 91 · EN : « Company Cars »",
-      "indice": "",
+      "indice": "Parle à Santino dans le hall du Y Hotel : il mentionne la voiture arrangée par Valentina. Direction Status Auto Imports à Bayside, demande Rob et choisis tes véhicules — prends au moins la Comet S2, la plus rapide du lot. Les sources divergent sur l’ordre exact des étapes.",
       "chapitre": 4,
       "spoiler": false,
       "verifie": false,
       "titre_en": "Company Cars",
-      "description_en": "Mission 62 of 91."
+      "description_en": "Mission 62 of 91.",
+      "indice_en": "Talk to Santino in the Y Hotel lobby: he mentions the car Valentina arranged. Head to Status Auto Imports in Bayside, ask for Rob and pick your vehicles — at least grab the Comet S2, the fastest one there. Sources differ on the exact step order."
     },
     {
       "id": "mission-063-lawyer-up",
@@ -2087,12 +2092,13 @@
       "region": "histoire",
       "zone": "",
       "description": "Mission 64 sur 91 · EN : « Party Hard »",
-      "indice": "",
+      "indice": "Job de sécurité de Valentina (après « Lawyer Up »). Avec Lucia : reste accroupie côté gauche jusqu’à la cage d’escalier, abats le tireur de l’ascenseur, passe par le conduit, puis nettoie l’étage de la fête — le pistolet silencieux n’a aucune munition de rechange, chaque balle compte et les balles perdues peuvent toucher les otages en contrebas. Fin en hélico vers le toit de Megamundo. Pas de récompense en argent.",
       "chapitre": 4,
       "spoiler": false,
       "verifie": false,
       "titre_en": "Party Hard",
-      "description_en": "Mission 64 of 91."
+      "description_en": "Mission 64 of 91.",
+      "indice_en": "Valentina’s security job (after “Lawyer Up”). As Lucia: stay crouched along the left side to the stairwell, shoot the elevator gunman, crawl through the vent, then clear the party floor — the silenced pistol has no spare ammo, every shot counts and strays can hit the hostages below. Ends with a helicopter ride to the Megamundo rooftop. No cash reward."
     },
     {
       "id": "mission-065-heavy-lifting",
@@ -2101,12 +2107,13 @@
       "region": "histoire",
       "zone": "",
       "description": "Mission 65 sur 91 · EN : « Heavy Lifting »",
-      "indice": "",
+      "indice": "Apporte le disque dur (consigne de stockage de Crosstown) à Raul sur sa péniche de Leonard County, puis direction l’Ajax Gym : utilise la sangle de levage pour coincer Nate dans le banc de musculation et fouille le sac de Raina pendant la visite. Lors de la filature nocturne en voiture, garde tes distances — le marqueur reste blanc tant que c’est bon et jaunit si tu colles trop. Pas de récompense en argent.",
       "chapitre": 4,
       "spoiler": false,
       "verifie": false,
       "titre_en": "Heavy Lifting",
-      "description_en": "Mission 65 of 91."
+      "description_en": "Mission 65 of 91.",
+      "indice_en": "Bring the hard drive (Crosstown storage locker) to Raul on his Leonard County houseboat, then hit Ajax Gym: use the lifting strap to trap Nate on the bench and search Raina’s backpack during the tour. On the night tail by car keep your distance — the marker stays white when you’re fine and fills yellow when you’re too close. No cash reward."
     },
     {
       "id": "mission-066-photo-shoot",
@@ -2115,12 +2122,13 @@
       "region": "histoire",
       "zone": "",
       "description": "Mission 66 sur 91 · EN : « Photo/Shoot »",
-      "indice": "",
+      "indice": "Débloquée après « Party Hard » (appel de Dre’Quan, rendez-vous à Tequesta). Trois phases : photos des Dimez depuis l’hélico (caméra du téléphone avec Lucia), poursuite à moto où il ne faut PAS tirer sur la voiture suivie — ne tire que sur les voitures qui s’ajoutent après le deuxième saut — puis sauvetage de Dre’Quan dans la ruelle. 6 000 $ selon une source.",
       "chapitre": 4,
       "spoiler": false,
       "verifie": false,
       "titre_en": "Photo/Shoot",
-      "description_en": "Mission 66 of 91."
+      "description_en": "Mission 66 of 91.",
+      "indice_en": "Unlocked after “Party Hard” (Dre’Quan calls, meet in Tequesta). Three parts: photograph the Dimez from the helicopter (phone camera as Lucia), a bike chase where you must NOT shoot the car you’re following — only shoot the cars that join after the second jump — then rescue Dre’Quan in the alley. $6,000 per one source."
     },
     {
       "id": "mission-067-making-gainz",
@@ -2129,12 +2137,13 @@
       "region": "histoire",
       "zone": "",
       "description": "Mission 67 sur 91 · EN : « Making Gainz »",
-      "indice": "",
+      "indice": "Mission de Lucia uniquement, après « Heavy Lifting » et les trois Jewelry Jobs de Yasmani (attends l’appel de Raul). Séance avec Nate à l’Ajax Gym : développé couché, squat, soulevé de terre puis vélo. Choix signalé par plusieurs guides : accepter l’injection de Nate monte définitivement le muscle max de Lucia de 4 à 5 (un guide affirme toutefois qu’il n’y a aucun choix — contesté). Après la mission, Jason et Lucia ne peuvent plus sortir ensemble en public jusqu’à « VCIA Takedown ».",
       "chapitre": 4,
       "spoiler": false,
       "verifie": false,
       "titre_en": "Making Gainz",
-      "description_en": "Mission 67 of 91."
+      "description_en": "Mission 67 of 91.",
+      "indice_en": "Lucia-only mission, after “Heavy Lifting” and all three of Yasmani’s Jewelry Jobs (wait for Raul’s call). Workout with Nate at Ajax Gym: bench, squat, deadlift then the bike. Choice reported by several guides: accepting Nate’s injection permanently raises Lucia’s max muscle from 4 to 5 (one guide claims there is no choice — disputed). Afterwards Jason and Lucia can’t be seen together in public until “VCIA Takedown”."
     },
     {
       "id": "mission-068-watch-it",
@@ -2143,12 +2152,13 @@
       "region": "histoire",
       "zone": "",
       "description": "Mission 68 sur 91 · EN : « Watch It »",
-      "indice": "",
+      "indice": "Jason accompagne Dre’Quan chez Royce Jones, le patron du club, pour régler un différend avec un rappeur : commence par repousser les vendeurs de montres Crowex, puis ceux qui arrivent en voiture et par les escaliers. Source unique, à confirmer.",
       "chapitre": 4,
       "spoiler": false,
       "verifie": false,
       "titre_en": "Watch It",
-      "description_en": "Mission 68 of 91."
+      "description_en": "Mission 68 of 91.",
+      "indice_en": "Jason joins Dre’Quan at nightclub owner Royce Jones’s place over a dispute with a rapper: first fight off the Crowex watch sellers, then the reinforcements arriving by car and down the stairs. Single source, to be confirmed."
     },
     {
       "id": "mission-069-cash-injections",
@@ -2157,12 +2167,13 @@
       "region": "histoire",
       "zone": "",
       "description": "Mission 69 sur 91 · EN : « Cash Injections »",
-      "indice": "",
+      "indice": "Mission de Lucia : elle traîne avec Nate et l’aide à vendre du Synthol sur Ocean Beach — c’est comme ça qu’elle gagne sa confiance pour la suite de l’infiltration du crew de Kordell. Source unique, à confirmer.",
       "chapitre": 4,
       "spoiler": false,
       "verifie": false,
       "titre_en": "Cash Injections",
-      "description_en": "Mission 69 of 91."
+      "description_en": "Mission 69 of 91.",
+      "indice_en": "Lucia mission: she hangs out with Nate and helps him sell Synthol on Ocean Beach — that’s how she earns his trust for the rest of the Kordell crew infiltration. Single source, to be confirmed."
     },
     {
       "id": "mission-070-amateur-hour",
@@ -2171,12 +2182,13 @@
       "region": "histoire",
       "zone": "",
       "description": "Mission 70 sur 91 · EN : « Amateur Hour »",
-      "indice": "",
+      "indice": "Mission de Lucia, débloquée après « Blood Sweat and Gear » : départ à l’étage de traumatologie du gym, puis un ramassage et une livraison à l’Ajax Gym. 1 000 $ de récompense. Source unique, à confirmer.",
       "chapitre": 4,
       "spoiler": false,
       "verifie": false,
       "titre_en": "Amateur Hour",
-      "description_en": "Mission 70 of 91."
+      "description_en": "Mission 70 of 91.",
+      "indice_en": "Lucia mission, unlocked after “Blood Sweat and Gear”: starts on the gym’s trauma floor, then a pickup and a drop-off at Ajax Gym. $1,000 reward. Single source, to be confirmed."
     },
     {
       "id": "mission-071-dirty-work",
@@ -2185,12 +2197,13 @@
       "region": "histoire",
       "zone": "",
       "description": "Mission 71 sur 91 · EN : « Dirty Work »",
-      "indice": "",
+      "indice": "Disponible après « Too Much Baggage » et « Cash Injections » (rendez-vous avec Andrea au Stockyard, objectif « Deal with Raina »). Piège au Velvet Palm Motel de Tequesta : Jason joue le client, Lucia photographie Raina depuis les conteneurs — choisis un poste avec vue dégagée sur les fenêtres et attends que Jason ouvre la fenêtre pour shooter. Termine en parlant à Nate près de la piscine de l’Ajax Gym. Aucun choix, rien de manquable.",
       "chapitre": 4,
       "spoiler": false,
       "verifie": false,
       "titre_en": "Dirty Work",
-      "description_en": "Mission 71 of 91."
+      "description_en": "Mission 71 of 91.",
+      "indice_en": "Available after “Too Much Baggage” and “Cash Injections” (meet Andrea at the Stockyard, objective “Deal with Raina”). Honey trap at the Velvet Palm Motel in Tequesta: Jason plays the client, Lucia photographs Raina from the containers — pick a spot with a clear view of the windows and wait until Jason opens the window to shoot. Finish by talking to Nate by the Ajax Gym pool. No choices, nothing missable."
     },
     {
       "id": "mission-072-too-much-baggage",
@@ -2199,12 +2212,13 @@
       "region": "histoire",
       "zone": "",
       "description": "Mission 72 sur 91 · EN : « Too Much Baggage »",
-      "indice": "",
+      "indice": "Mission de Jason à l’aéroport de Vice City : embauché comme bagagiste, il profite de ses tâches (atteler les chariots à bagages au tracteur) pour poser des mouchards pour Karim, dont un émetteur à placer derrière des toilettes.",
       "chapitre": 4,
       "spoiler": false,
       "verifie": false,
       "titre_en": "Too Much Baggage",
-      "description_en": "Mission 72 of 91."
+      "description_en": "Mission 72 of 91.",
+      "indice_en": "Jason mission at Vice City International: hired as a baggage handler, he uses the shifts (hitching baggage carts to the tug) to plant bugs for Karim, including a transmitter placed behind a toilet."
     },
     {
       "id": "mission-073-adventures-in-babysitting",
@@ -2213,12 +2227,13 @@
       "region": "histoire",
       "zone": "",
       "description": "Mission 73 sur 91 · EN : « Adventures in Babysitting »",
-      "indice": "",
+      "indice": "Après « Making Gainz », attends l’appel puis retrouve Andrés via Paulo à Starfish Island et conduis-le au club The Vault. Le détail du verre (sans citron) n’a aucune incidence, et ton verre est drogué quoi que tu choisisses — la vision reste déformée jusqu’à la sortie. Quand Andrés disparaît, ses amis t’orientent vers les toilettes au fond : dernière cabine. Finis en l’escortant jusqu’à l’hélico et en défendant le décollage contre les tireurs de la FAP.",
       "chapitre": 4,
       "spoiler": false,
       "verifie": false,
       "titre_en": "Adventures in Babysitting",
-      "description_en": "Mission 73 of 91."
+      "description_en": "Mission 73 of 91.",
+      "indice_en": "After “Making Gainz”, wait for the call then find Andrés via Paulo on Starfish Island and drive him to The Vault. The drink detail (no lime) changes nothing, and your drink gets spiked whatever you choose — vision stays distorted until you leave. When Andrés vanishes, his friends point you to the far restroom: last stall. Finish by escorting him to the helicopter and defending the takeoff against FAP gunmen."
     },
     {
       "id": "mission-074-fresh-evidence",
@@ -2227,12 +2242,13 @@
       "region": "histoire",
       "zone": "",
       "description": "Mission 74 sur 91 · EN : « Fresh Evidence »",
-      "indice": "",
+      "indice": "Mission de Jason uniquement (Dre’Quan au Jack of Hearts), 10 000 $. Attends la nuit avant d’entrer dans le manoir de Dante à Starfish Island ; assomme le garde du fond et planque le corps dans le placard ouvert par Dre’Quan. Énigme du mur : insère dans la fresque le jouet qui tient un micro. Un tigre rôde — attire-le avec la viande, descends par le monte-charge et fuis en bateau.",
       "chapitre": 4,
       "spoiler": false,
       "verifie": false,
       "titre_en": "Fresh Evidence",
-      "description_en": "Mission 74 of 91."
+      "description_en": "Mission 74 of 91.",
+      "indice_en": "Jason-only mission (Dre’Quan at the Jack of Hearts), $10,000. Wait for nightfall before sneaking into Dante’s Starfish Island mansion; knock out the far-side guard and stash the body in the closet Dre’Quan opens. Wall puzzle: insert the toy holding a microphone into the mural. A tiger roams the house — lure it with the meat, ride the lift down and escape by boat."
     },
     {
       "id": "mission-075-power-play",
@@ -2256,12 +2272,13 @@
       "region": "histoire",
       "zone": "",
       "description": "Mission 76 sur 91 · EN : « Child's Play »",
-      "indice": "",
+      "indice": "Après « Fresh Evidence », attends l’appel d’Andrés : départ au siège de Megamundo. Le marqueur ressemble à un compte à rebours mais la mission n’est PAS chronométrée — elle devient simplement obligatoire une fois les autres missions pré-« Power Play » terminées. 30 000 $ et le trophée « Family Matters ».",
       "chapitre": 4,
       "spoiler": false,
       "verifie": false,
       "titre_en": "Child's Play",
-      "description_en": "Mission 76 of 91."
+      "description_en": "Mission 76 of 91.",
+      "indice_en": "After “Fresh Evidence”, wait for Andrés’s call: starts at Megamundo HQ. The map marker looks timed but the mission is NOT timed — it just becomes mandatory once the other pre-“Power Play” missions are done. $30,000 and the “Family Matters” trophy."
     },
     {
       "id": "mission-077-headliners",
@@ -2270,12 +2287,13 @@
       "region": "histoire",
       "zone": "",
       "description": "Mission 77 sur 91 · EN : « Headliners »",
-      "indice": "",
+      "indice": "Soirée de lancement des Real Dimez au VYB. Lucia règle la scène depuis la cabine DJ (pyramide, colonnes, couleurs, tests fumée/pyro/lasers) ; Jason attribue les tables VIP à l’entrée — priorise les invités au plus grand nombre de followers : Donatello Lambrini, puis KD, puis au choix les VIP Righteous Slaughter ou le développeur de jeux (les guides divergent sur le 3ᵉ). DWNPLY provoque une bagarre dans la green room : libère les Dimez pour finir la soirée. Trophée DWNFALL à la clé.",
       "chapitre": 4,
       "spoiler": false,
       "verifie": false,
       "titre_en": "Headliners",
-      "description_en": "Mission 77 of 91."
+      "description_en": "Mission 77 of 91.",
+      "indice_en": "The Real Dimez launch night at VYB. Lucia sets the stage from the DJ booth (pyramid, columns, colors, smoke/pyro/laser tests); Jason assigns the VIP tables at the door — prioritize guests with the most followers: Donatello Lambrini, then KD, then either the Righteous Slaughter VIPs or the Game Developer (guides differ on the third pick). DWNPLY starts a brawl in the green room: free the Dimez to end the night. DWNFALL trophy awarded."
     },
     {
       "id": "mission-078-close-surveillance",
@@ -2284,12 +2302,13 @@
       "region": "histoire",
       "zone": "",
       "description": "Mission 78 sur 91 · EN : « Close Surveillance »",
-      "indice": "",
+      "indice": "Avec Jason, retrouve Karim à Ocean Beach et pilote son drone jusqu’au Calique : file Nate et Cisco en gardant la barre d’écoute pleine pour ne pas perdre l’audio, puis fais entrer le drone dans l’appartement 405 d’Omar pour poser les caméras. Pas de paiement (préparation du casse VCIA) ; bonus Professionnel si le drone revient au van à la fin.",
       "chapitre": 4,
       "spoiler": false,
       "verifie": false,
       "titre_en": "Close Surveillance",
-      "description_en": "Mission 78 of 91."
+      "description_en": "Mission 78 of 91.",
+      "indice_en": "As Jason, meet Karim in Ocean Beach and fly his drone to The Calique: tail Nate and Cisco while keeping the listening bar full so the audio holds, then slip the drone into Omar’s apartment 405 to place the cameras. No payout (VCIA heist prep); Professional bonus for getting the drone back to the van at the end."
     },
     {
       "id": "mission-079-delivery-method",
@@ -2298,12 +2317,13 @@
       "region": "histoire",
       "zone": "",
       "description": "Mission 79 sur 91 · EN : « Delivery Method »",
-      "indice": "",
+      "indice": "Mission de Jason uniquement : Andrea te confie une clé USB à brancher dans les bureaux de la Transport Security Services, où tu entres en vélo de livraison. Branche la clé quand la réceptionniste s’éloigne (son poste n’accède pas à la base de données). Après avoir tiré l’alarme incendie, tu as environ 90 secondes avant l’arrivée des pompiers : fais vite.",
       "chapitre": 4,
       "spoiler": false,
       "verifie": false,
       "titre_en": "Delivery Method",
-      "description_en": "Mission 79 of 91."
+      "description_en": "Mission 79 of 91.",
+      "indice_en": "Jason-only mission: Andrea hands you a flash drive to plug in at the Transport Security Services office, which you enter on a delivery bike. Plug the drive in when the receptionist steps away (her machine can’t reach the database). After pulling the fire alarm you have about 90 seconds before the fire crews arrive: move fast."
     },
     {
       "id": "mission-080-team-building",
@@ -2312,12 +2332,13 @@
       "region": "histoire",
       "zone": "",
       "description": "Mission 80 sur 91 · EN : « Team Building »",
-      "indice": "",
+      "indice": "Mission de Lucia uniquement : elle rencontre Kordell et doit faire ses preuves devant son crew — c’est l’étape qui consolide sa couverture au sein du gang avant le casse.",
       "chapitre": 4,
       "spoiler": false,
       "verifie": false,
       "titre_en": "Team Building",
-      "description_en": "Mission 80 of 91."
+      "description_en": "Mission 80 of 91.",
+      "indice_en": "Lucia-only mission: she meets Kordell and has to prove herself to his crew — the step that cements her cover inside the gang before the heist."
     },
     {
       "id": "mission-081-fully-catered",
@@ -2326,12 +2347,13 @@
       "region": "histoire",
       "zone": "",
       "description": "Mission 81 sur 91 · EN : « Fully Catered »",
-      "indice": "",
+      "indice": "Raul demande à Jason et Lucia de voler un camion de restauration « Plane & Simple » et de le livrer à son équipe : c’est la dernière préparation avant le casse « VCIA Takedown ». Sauvegarde manuelle recommandée avant d’enchaîner.",
       "chapitre": 4,
       "spoiler": false,
       "verifie": false,
       "titre_en": "Fully Catered",
-      "description_en": "Mission 81 of 91."
+      "description_en": "Mission 81 of 91.",
+      "indice_en": "Raul asks Jason and Lucia to steal a “Plane & Simple” catering truck and deliver it to his crew: the last prep before the “VCIA Takedown” heist. A manual save is recommended before continuing."
     },
     {
       "id": "mission-082-vcia-takedown",
@@ -2385,12 +2407,13 @@
       "region": "histoire",
       "zone": "",
       "description": "Mission 85 sur 91 · EN : « Bird in the Hand »",
-      "indice": "",
+      "indice": "Après le vestiaire et le gym de Giorgio, scanne la base des garde-côtes depuis l’hélico avec Lucia : cinq cibles (trois groupes de gardes, puis le pont-levis et un bateau quand l’hélico se déplace) — maintiens chaque vue assez longtemps pour validation. Infiltration nocturne derrière Vinny par l’égout ; reste dans l’ombre, marque les ennemis ou siffle pour les isoler, et prends le camion indiqué à gauche pour approcher du hangar. Bonus Professionnel : atteindre la trappe du toit du hangar sans détection (être repéré ensuite pendant l’extraction ne l’annule pas). Final avec Jason : verrouille chaque jet au lance-roquettes jusqu’au carré rouge et détruis les deux.",
       "chapitre": 5,
       "spoiler": false,
       "verifie": false,
       "titre_en": "Bird in the Hand",
-      "description_en": "Mission 85 of 91."
+      "description_en": "Mission 85 of 91.",
+      "indice_en": "After the wardrobe and Giorgio’s gym, scan the Coast Guard base from the helicopter as Lucia: five targets (three guard groups, then the drawbridge and a boat once the heli moves) — hold each view long enough to register. Night infiltration behind Vinny through the sewer; stay in shadow, tag enemies or whistle to isolate them, and take the truck pointed out on the left to get close to the hangar. Professional bonus: reach the hangar roof hatch undetected (getting spotted later during extraction doesn’t void it). Finale as Jason: lock onto each jet with the launcher until the square turns red and destroy both."
     },
     {
       "id": "mission-086-taking-liberties",
@@ -2399,12 +2422,13 @@
       "region": "histoire",
       "zone": "",
       "description": "Mission 86 sur 91 · EN : « Taking Liberties »",
-      "indice": "",
+      "indice": "Mission courte sans combat : au penthouse, Giorgio est au spa, au même étage que le gym — inutile de prendre l’ascenseur ou le toit. Suis-le ensuite à son bureau pour la scène avec le visiteur surprise (caméo de la série) : pardon présidentiel promis contre la destruction d’une cargaison rivale. Termine la conversation pour débloquer « Doggie Bag » et « VC Baby ». Sauvegarde manuelle conseillée avant les missions du chapitre 5.",
       "chapitre": 5,
       "spoiler": false,
       "verifie": false,
       "titre_en": "Taking Liberties",
-      "description_en": "Mission 86 of 91."
+      "description_en": "Mission 86 of 91.",
+      "indice_en": "Short no-combat mission: in the penthouse, Giorgio is in the spa on the same floor as the gym — no need for the elevator or the roof. Then follow him to his office for the scene with the surprise visitor (a series cameo): a presidential pardon promised in exchange for destroying a rival shipment. See the conversation through to unlock “Doggie Bag” and “VC Baby”. Manual save advised before Chapter 5 missions."
     },
     {
       "id": "mission-087-vc-baby",
@@ -2413,12 +2437,13 @@
       "region": "histoire",
       "zone": "",
       "description": "Mission 87 sur 91.",
-      "indice": "",
+      "indice": "Attention au marqueur : Mattia lance « VC Baby », le marqueur « Meet Vinny » lance « Doggie Bag ». Choix : refuser d’aider Mattia termine la mission en pleine conversation et lui vaudrait une mauvaise issue plus tard ; accepter déclenche la vraie mission — Lucia jette le téléphone de Dardan dans la piscine pour le distraire, vole le badge laissé sur le canapé, puis course contre la montre vers l’hôpital (un peu moins de 4 minutes selon une source, contesté). N’importe quelle voiture du garage convient et les dégâts ne comptent pas. Bonus « Delivered » si tu arrives dans les temps. Sauvegarde manuelle avant : pas de rejouabilité.",
       "chapitre": 5,
       "spoiler": false,
       "verifie": false,
       "titre_en": "VC Baby",
-      "description_en": "Mission 87 of 91."
+      "description_en": "Mission 87 of 91.",
+      "indice_en": "Watch the marker: Mattia starts “VC Baby”, the “Meet Vinny” marker starts “Doggie Bag”. Choice: refusing to help Mattia ends the mission mid-conversation and reportedly earns him a bad outcome later; accepting triggers the real mission — Lucia throws Dardan’s phone into the pool as a distraction, steals the key fob off the couch, then it’s a race to the hospital (just under 4 minutes per one source, disputed). Any garage car works and damage doesn’t count. “Delivered” bonus if you make it in time. Manual save first: no mission replay."
     },
     {
       "id": "mission-088-doggie-bag",
@@ -2768,13 +2793,14 @@
       "region": "histoire",
       "zone": "Optionnelle",
       "description": "Mission optionnelle. Peut disparaître en avançant dans l’histoire.",
-      "indice": "",
+      "indice": "Se déclenche pendant « Pool Day » (SMS d’Eddie quelques jours après), au Y Hotel d’Ocean Beach, et uniquement en solo. À l’ascenseur : payer les 50 000 $ ne rapporte qu’une photo sans valeur — refuse, tu ne perds rien. Lui tirer dessus ne sert à rien (porte blindée, il s’enfuit). Ne compte pas pour le trophée Strangers & Freaks.",
       "chapitre": 4,
       "spoiler": false,
       "verifie": false,
       "zone_en": "Optional",
       "description_en": "Optional mission. May disappear as the story advances.",
-      "titre_en": "Attend Eddie Acosta's Party"
+      "titre_en": "Attend Eddie Acosta's Party",
+      "indice_en": "Triggers during “Pool Day” (Eddie texts a few days later), at the Y Hotel in Ocean Beach, solo only. At the elevator: paying the $50,000 only gets you a worthless picture — refuse, you lose nothing. Shooting him is pointless (bulletproof door, he runs off). Doesn’t count toward the Strangers & Freaks trophy."
     },
     {
       "id": "mission-opt-c4-that-s-where-the-money-is",
@@ -2833,7 +2859,7 @@
       "region": "leonida",
       "zone": "Partout en Leonida",
       "description": "112 scans WAiNK : 31 repères, 35 curiosités, 23 sculptures et 23 tags No Flusher ; 100 requis (trophée You WAiNKer!). Le chiffre 89 qui circule est la somme sans les tags.",
-      "indice": "Se scanne avec l’appli WAiNK du téléphone. Scanner les magazines cachés avec WAiNK débloque aussi des coiffures et maquillages pour Jason et Lucia. Attention : le street art d’Ahol et les 1010 Murals se scannent pareil mais sont suivis à part et ne comptent pas ici.",
+      "indice": "Se scanne avec l’appli WAiNK du téléphone. Scanner les magazines cachés avec WAiNK débloque aussi des coiffures et maquillages pour Jason et Lucia. Attention : le street art d’Ahol et les 1010 Murals se scannent pareil mais sont suivis à part et ne comptent pas ici. La communauté converge sur notre lecture : 112 lieux au total et 100 scans requis pour « You WAiNKer! » (GMTreks) ; PowerPyx garde 31 repères + 35 curiosités + 23 sculptures (= 89) plus les tags No Flusher et un set non identifié. Détail nouveau : les tags No Flusher sont suivis comme un simple compteur global, pas lieu par lieu comme les autres sets — cherchez-les sur les murs, sous les ponts et dans les ruelles. Exemple de spot : la grande roue de la fête foraine abandonnée de Port Gellhorn.",
       "total": 112,
       "requis": 100,
       "spoiler": false,
@@ -2841,7 +2867,7 @@
       "zone_en": "All across Leonida",
       "titre_en": "WAiNK scan locations",
       "description_en": "112 WAiNK scans: 31 landmarks, 35 curiosities, 23 sculptures and 23 No Flusher tags; 100 required (You WAiNKer! trophy). The circulating 89 figure is the sum without the tags.",
-      "indice_en": "Scanned with the WAiNK phone app. Scanning hidden magazines with WAiNK also unlocks hairstyles and makeup for Jason and Lucia. Note: Ahol street art and the 1010 Murals scan the same way but are tracked separately and don’t count here."
+      "indice_en": "Scanned with the WAiNK phone app. Scanning hidden magazines with WAiNK also unlocks hairstyles and makeup for Jason and Lucia. Note: Ahol street art and the 1010 Murals scan the same way but are tracked separately and don’t count here. The community converges on our reading: 112 locations total and 100 scans required for “You WAiNKer!” (GMTreks); PowerPyx keeps 31 landmarks + 35 curiosities + 23 sculptures (= 89) plus the No Flusher tags and one unidentified set. New detail: No Flusher tags are tracked as a single global counter, not spot by spot like the other sets — look on walls, underpasses and alleys. Example spot: the Ferris wheel at the abandoned Port Gellhorn funfair."
     },
     {
       "id": "check-coll-styles",
@@ -2866,7 +2892,7 @@
       "region": "leonida",
       "zone": "Partout en Leonida",
       "description": "34 montres, déjà comptées dans les Styles découverts. 10 montres débloquent le code Avancer l’heure, 20 le code Figer l’heure.",
-      "indice": "Ramassables à icône dorée : surtout autour des opérations de gang, certaines dans des coffres de maisons privées.",
+      "indice": "Ramassables à icône dorée : surtout autour des opérations de gang, certaines dans des coffres de maisons privées. Premières montres nommées : Crowex Octane « Orca » dans l’arrière-salle du Kingpin Bowling à Port Gellhorn (planque Kolt, pas besoin du code du coffre), Crowex Ambassador dans le coffre du rez-de-chaussée du Marbelle Hotel à Vice City (code •••), Novak Laurent Alcazar dans la première chambre à gauche de la maison de fête de Dolphin Dr, B&G Ark Royal Quantum sur un bureau à Watson Bay (opération La Polilla Negra). Une montre ramassée va dans la garde-robe (Accessoires → Montres) et se porte par Jason ou Lucia. Aucun code de triche ne les collecte automatiquement. La carte GTABase en recense 31 à 33 sur 34 ; une liste complète confirmée manque encore. (Les codes chiffrés sont volontairement non affichés dans l’app : lis-les en jeu.)",
       "total": 34,
       "requis": 0,
       "spoiler": false,
@@ -2874,7 +2900,7 @@
       "zone_en": "All across Leonida",
       "titre_en": "Luxury watches",
       "description_en": "34 watches, already counted in Discovered styles. 10 watches unlock Advance time, 20 unlock Freeze time.",
-      "indice_en": "Golden-icon pickups: mostly around gang operations, some inside private home safes."
+      "indice_en": "Golden-icon pickups: mostly around gang operations, some inside private home safes. First named watches: Crowex Octane “Orca” in the back room of Kingpin Bowling in Port Gellhorn (Kolt hideout, no safe code needed), Crowex Ambassador in the ground-floor safe of the Marbelle Hotel in Vice City (code •••), Novak Laurent Alcazar in the first bedroom on the left of the Dolphin Dr party house, B&G Ark Royal Quantum on a desk in Watson Bay (La Polilla Negra operation). A picked-up watch goes to the wardrobe (Accessories → Watches) and can be worn by Jason or Lucia. No cheat code auto-collects them. The GTABase map pins 31–33 of 34; a confirmed full list is still missing. (Digit codes are deliberately not shown in the app: read them in game.)"
     },
     {
       "id": "check-coll-sous-marines",
@@ -2900,7 +2926,7 @@
       "region": "leonida",
       "zone": "Partout en Leonida",
       "description": "27 magazines, livres et comics + 7 boîtes d’échange de livres : 34 en tout, 30 requis. Les totaux varient encore selon les guides (26 à 29 magazines recensés).",
-      "indice": "⚠️ Plusieurs exemplaires du chapitre 1 sont dans la maison de Jason à Key Lento (table de chevet, table du salon, patio — dont Body Copy et un magazine de pêche) : à prendre avant Tourist Trap. Exemples ailleurs : Xero Food Mart (La Perle), Ron Stop’n’Snack (Washington Beach).",
+      "indice": "⚠️ Plusieurs exemplaires du chapitre 1 sont dans la maison de Jason à Key Lento (table de chevet, table du salon, patio — dont Body Copy et un magazine de pêche) : à prendre avant Tourist Trap. Exemples ailleurs : Xero Food Mart (La Perle), Ron Stop’n’Snack (Washington Beach). Exemplaires nommés par chapitre : « Off the Hook » dans la cabane à outils de la maison de Jason (ch. 1, sur l’établi), « Children of Wizard Wang » à la cafétéria du Starlet Motel (ch. 2), « Ashes of Glory » dans la salle de soins de l’Ajax Gym — accessible uniquement par Lucia pendant Blood Sweat and Gear (ch. 4). Pas besoin de lire l’exemplaire : le ramasser suffit, mais le menu Progression ne dit pas lesquels sont déjà pris. Contradiction sur la missabilité : PowerPyx dit que certains EMPLACEMENTS ferment avec l’histoire mais que les titres se retrouvent ailleurs ; d’autres guides affirment que rien n’est définitivement manquable après le générique. Total toujours flottant : 27 (PowerPyx, Bloxodes) contre 29 points sur la carte GTABase.",
       "total": 34,
       "requis": 30,
       "spoiler": false,
@@ -2908,7 +2934,7 @@
       "zone_en": "All across Leonida",
       "titre_en": "Magazines, books & comics",
       "description_en": "27 magazines, books and comics + 7 book swap boxes: 34 total, 30 required. Counts still vary across guides (26–29 magazines listed).",
-      "indice_en": "⚠️ Several chapter 1 copies are inside Jason’s Key Lento house (bedside table, living room table, patio — incl. Body Copy and a fishing magazine): grab them before Tourist Trap. Elsewhere: Xero Food Mart (La Perle), Ron Stop’n’Snack (Washington Beach)."
+      "indice_en": "⚠️ Several chapter 1 copies are inside Jason’s Key Lento house (bedside table, living room table, patio — incl. Body Copy and a fishing magazine): grab them before Tourist Trap. Elsewhere: Xero Food Mart (La Perle), Ron Stop’n’Snack (Washington Beach). Named copies per chapter: “Off the Hook” in the tool shed at Jason’s house (ch. 1, on the workbench), “Children of Wizard Wang” in the Starlet Motel cafeteria (ch. 2), “Ashes of Glory” in the Ajax Gym trauma room — Lucia-only during Blood Sweat and Gear (ch. 4). No need to read anything: picking it up counts, but the Progress menu doesn’t show which ones you already have. Missability contradiction: PowerPyx says some LOCATIONS close with story progress but the titles reappear elsewhere; other guides say nothing is permanently missable after the credits. Total still floating: 27 (PowerPyx, Bloxodes) vs 29 map pins on GTABase."
     },
     {
       "id": "check-coll-playlists",
@@ -2951,7 +2977,7 @@
       "region": "leonida",
       "zone": "Partout en Leonida",
       "description": "Les 15 Target Decks de Bret Vogel, tous requis pour le 100 %. La chasse se débloque au chapitre 2 (Jason), après « Coffee Break », quand Bret envoie un texto — il te donne le fusil unique Killtelligence SM-69.",
-      "indice": "Bret n’accepte que les animaux en état Parfait ou Bon : un seul tir net, tête ou cœur. Decks connus — 1 « Adrenal Glands and Venison » : cerf de Virginie (mâle et femelle), Mount Kalaga et usine à béton abandonnée ; 2 « Hog Endocrine Glands » : dindon blanc de Leonida, mouffette tachetée, sanglier (Adler Creek, Bonanza, Mount Kalaga) ; 3 « Cane Toad Venom Glands » : crapaud buffle, ragondin, varan du Nil (marais de Buckskin, Pelican Valley). Decks 4 à 15 : pas encore documentés. Suivi : Carte → Activités → Target Deck.",
+      "indice": "Bret n’accepte que les animaux en état Parfait ou Bon : un seul tir net, tête ou cœur. Decks connus — 1 « Adrenal Glands and Venison » : cerf de Virginie (mâle et femelle), Mount Kalaga et usine à béton abandonnée ; 2 « Hog Endocrine Glands » : dindon blanc de Leonida, mouffette tachetée, sanglier (Adler Creek, Bonanza, Mount Kalaga) ; 3 « Cane Toad Venom Glands » : crapaud buffle, ragondin, varan du Nil (marais de Buckskin, Pelican Valley). Decks 4 à 15 : pas encore documentés. Suivi : Carte → Activités → Target Deck. Deck 4 « Cutscene Wire » : renard doré (Est de Kelly County, points d’eau), crotale diamantin de l’Est (zone Central West, bois au nord de l’autoroute) et tatou à neuf bandes — attention, un guide numérote autrement en comptant Veteran Hunted comme mission 1. Decks tardifs documentés à l’unité : crocodile américain (East Pelican Valley, eau près de la Radio Tower vers la piste d’atterrissage), coyote noir du Nord (zones humides de Big Pine près de Watson Bay — seule la variante sombre compte) et Leonida Black Panther (Grassrivers, Mariana County, nord de Watson Bay — elle peut attaquer). Livraison à Killtelligence Provisions (Mount Kalaga NP) ; Bret vient chercher lui-même les gros animaux (ours, sangliers), les petits se transportent en véhicule ; la mouffette sort après 20 h. Veteran Hunted paie 500 $ + le fusil SM-69 ; le Wortham W-22 aide à garder la carcasse en bon état ; noms et ordre des decks 5 à 15 toujours non confirmés.",
       "total": 15,
       "requis": 15,
       "spoiler": false,
@@ -2959,7 +2985,7 @@
       "zone_en": "All across Leonida",
       "titre_en": "Bret's targets",
       "description_en": "Bret Vogel’s 15 Target Decks, all required for 100%. Hunting unlocks in chapter 2 (Jason), after “Coffee Break”, when Bret texts you — he gives you the unique Killtelligence SM-69 rifle.",
-      "indice_en": "Bret only takes Pristine or Good animals: one clean shot, head or heart. Known decks — 1 “Adrenal Glands and Venison”: whitetail buck and doe, Mount Kalaga and the abandoned concrete plant; 2 “Hog Endocrine Glands”: Leonida wild white tom, eastern spotted skunk, wild boar (Adler Creek, Bonanza, Mount Kalaga); 3 “Cane Toad Venom Glands”: cane toad, nutria, Nile monitor (Buckskin swamps, Pelican Valley). Decks 4–15: not documented yet. Track: Map → Activities → Target Deck."
+      "indice_en": "Bret only takes Pristine or Good animals: one clean shot, head or heart. Known decks — 1 “Adrenal Glands and Venison”: whitetail buck and doe, Mount Kalaga and the abandoned concrete plant; 2 “Hog Endocrine Glands”: Leonida wild white tom, eastern spotted skunk, wild boar (Adler Creek, Bonanza, Mount Kalaga); 3 “Cane Toad Venom Glands”: cane toad, nutria, Nile monitor (Buckskin swamps, Pelican Valley). Decks 4–15: not documented yet. Track: Map → Activities → Target Deck. Deck 4 “Cutscene Wire”: golden fox (East Kelly County, near watering holes), eastern diamondback rattlesnake (Central West zone, woods north of the highway) and nine-banded armadillo — note one guide numbers differently by counting Veteran Hunted as mission 1. Later-deck targets documented individually: American crocodile (East Pelican Valley, water near the Radio Tower by the airstrip), northern black coyote (Big Pine wetlands near Watson Bay — only the dark-coated variant counts) and the Leonida Black Panther (Grassrivers, Mariana County, north of Watson Bay — it can attack). Deliver to Killtelligence Provisions (Mount Kalaga NP); Bret collects big animals (bears, boars) himself, small ones you haul by vehicle; the skunk only shows after 8pm. Veteran Hunted pays $500 + the SM-69 rifle; the Wortham W-22 helps keep carcasses Pristine; names and order of decks 5–15 still unconfirmed."
     },
     {
       "id": "check-coll-vehicules-remarquables",
@@ -3172,7 +3198,7 @@
       "region": "vice-dale",
       "zone": "Tequesta",
       "description": "Offert par l’histoire : chapitre 5, mission « Operation Savage Glory ».",
-      "indice": "",
+      "indice": "Débloqué gratuitement et automatiquement en finissant « Operation Savage Glory » (chapitre 5) : garage personnel de 3 places à Tequesta Retreat, un des 4 garages d’histoire — il ne compte pas pour le trophée « Little Boxes ». Certains guides le classent plutôt comme une 5ᵉ planque du sud de Vice City : statut exact à vérifier en jeu.",
       "spoiler": true,
       "verifie": true,
       "chapitre": 5,
@@ -3180,7 +3206,8 @@
         "x": 70,
         "y": 48
       },
-      "description_en": "Story reward: chapter 5, mission “Operation Savage Glory”."
+      "description_en": "Story reward: chapter 5, mission “Operation Savage Glory”.",
+      "indice_en": "Unlocked automatically and for free by finishing “Operation Savage Glory” (chapter 5): a 3-vehicle personal garage in Tequesta Retreat, one of the 4 story garages — it doesn’t count toward the “Little Boxes” trophy. Some guides class it as a fifth southern Vice City safehouse instead: exact status to verify in game."
     },
     {
       "id": "check-garage-paradise",
@@ -3286,9 +3313,9 @@
       "titre": "Pussycat Mammatus (Lapwing Mammatus)",
       "type": "vehicule_rare",
       "region": "mariana",
-      "zone": "Hangar, Grassrivers",
+      "zone": "Piste désaffectée au sud de Hamlet, Grassrivers",
       "description": "Dans un hangar.",
-      "indice": "L’hydravion est dans un hangar des Grassrivers — emplacement confirmé par plusieurs cartes communautaires.",
+      "indice": "Précision d’emplacement : l’hydravion rose est dans un hangar abandonné, sur une piste d’atterrissage désaffectée au sud de Hamlet, côté Grassrivers. Source unique, à confirmer.",
       "set": "girlypop",
       "spoiler": false,
       "verifie": true,
@@ -3297,17 +3324,17 @@
         "y": 54
       },
       "description_en": "In a hangar.",
-      "indice_en": "The plane sits in a hangar in the Grassrivers — confirmed by several community maps.",
-      "zone_en": "Hangar, Grassrivers"
+      "indice_en": "Location refinement: the pink plane sits in an abandoned hangar on a disused airstrip south of Hamlet, on the Grassrivers side. Single source, to be confirmed.",
+      "zone_en": "Disused airstrip south of Hamlet, Grassrivers"
     },
     {
       "id": "check-gp-03-penumbra",
       "titre": "Party Girl Penumbra (Maibatsu Penumbra)",
       "type": "vehicule_rare",
       "region": "mariana",
-      "zone": "Capri",
+      "zone": "Parking d’hôtel, Capri",
       "description": "Sur le parking d’un hôtel.",
-      "indice": "",
+      "indice": "Localisation étayée : une Penumbra aux accents rose vif sur le parking d’un hôtel de Capri. Deux pièges à éviter dans le même secteur : la Red Hot Hustler (autre standout, parking arrière d’un hôtel de bord de mer sur Vela Rota Dr) et la Penumbra FF verte de Vespucci Island (hommage Paul Walker), qui sont d’autres véhicules. Source unique, à confirmer.",
       "set": "girlypop",
       "spoiler": false,
       "verifie": false,
@@ -3315,7 +3342,9 @@
         "x": 57,
         "y": 64
       },
-      "description_en": "In a hotel parking lot."
+      "description_en": "In a hotel parking lot.",
+      "indice_en": "Supported location: a hot-pink-accented Penumbra in a hotel parking lot in Capri. Two traps to avoid in the same area: the Red Hot Hustler (another standout, rear car park of a beachfront hotel on Vela Rota Dr) and the green Penumbra FF on Vespucci Island (Paul Walker tribute), which are different vehicles. Single source, to be confirmed.",
+      "zone_en": "Hotel parking lot, Capri"
     },
     {
       "id": "check-gp-04-apoc",
@@ -3436,14 +3465,15 @@
       "titre": "Bubblegum Growler (Pfister Growler)",
       "type": "vehicule_rare",
       "region": "leonida",
-      "zone": "Rialto Islands — comté à confirmer",
+      "zone": "Rockridge ou La Perle, Vice City (contesté)",
       "description": "Dans le garage d’une résidence aisée.",
-      "indice": "",
+      "indice": "Enfin localisée — mais les guides l’appellent « Vanessa’s Growler » (nom à rapprocher du titre actuel). Elle est enfermée sous clé : crack le laptop de Vanessa (l’ancienne locataire de l’appartement Bayside, chapitre 3) pour obtenir le code d’accès. Emplacement contesté : un box de stockage à Rockridge pour une source, un garage derrière Auntie’s Place à La Perle (Vice City) pour l’autre. Dans les deux cas, ce n’est PAS aux Rialto Islands comme indiqué actuellement.",
       "set": "girlypop",
       "spoiler": false,
       "verifie": false,
-      "zone_en": "Rialto Islands — county to be confirmed",
-      "description_en": "In the garage of a wealthy residence."
+      "zone_en": "Rockridge or La Perle, Vice City (disputed)",
+      "description_en": "In the garage of a wealthy residence.",
+      "indice_en": "Finally located — but the guides call it “Vanessa’s Growler” (name to reconcile with the current title). It’s locked away: crack Vanessa’s laptop (the former tenant of the Chapter 3 Bayside apartment) to get the access code. Disputed spot: a Rockridge lockup per one source, a garage behind Auntie’s Place in La Perle (Vice City) per the other. Either way, it is NOT in the Rialto Islands as currently listed."
     },
     {
       "id": "check-gp-11-jubilee",
@@ -3742,12 +3772,12 @@
       "zone_en": "All across Leonida",
       "description": "Les 39 opérations illégales de 9 gangs (Kolts & Associates 5, San4San 5, Final Chapter 4, Kingfishers 3, Guardia Brothers 3…), toutes requises. Une par gang débloque le trophée Pest Control ; 25 avec partenaire débloquent le filtre Pinhole.",
       "description_en": "All 39 illegal operations across 9 gangs (Kolts & Associates 5, San4San 5, Final Chapter 4, Kingfishers 3, Guardia Brothers 3…), all required. One per gang unlocks the Pest Control trophy; 25 with your partner unlock the Pinhole filter.",
-      "indice": "Carte → filtre Braquages → Opérations illégales. Il faut TOUT prendre (coffre, montre, arme) pour valider le site. Un site nettoyé réapparaît plus tard.",
+      "indice": "Carte → filtre Braquages → Opérations illégales. Il faut TOUT prendre (coffre, montre, arme) pour valider le site. Un site nettoyé réapparaît plus tard. Certaines opérations sont visibles sur la carte dès le départ, les autres s’ajoutent en explorant la Leonida. Repère géographique : les 5 opérations de Kolts & Associates sont toutes à Port Gellhorn ou juste au nord. Les montres récupérées sur les sites filent dans la garde-robe (Accessoires → Montres) et comptent pour la collection Montres de luxe.",
       "total": 39,
       "requis": 39,
       "spoiler": false,
       "verifie": true,
-      "indice_en": "Map → Robberies filter → Illegal Operations. You must take EVERYTHING (safe, watch, weapon) for the site to count. Cleared sites respawn later."
+      "indice_en": "Map → Robberies filter → Illegal Operations. You must take EVERYTHING (safe, watch, weapon) for the site to count. Cleared sites respawn later. Some operations are visible on the map from the start, the rest appear as you explore Leonida. Geographic anchor: the 5 Kolts & Associates operations all sit in Port Gellhorn or just north of it. Watches looted on sites go to the wardrobe (Accessories → Watches) and count toward the Luxury Watches collection."
     },
     {
       "id": "check-coll-coffres",
@@ -3872,11 +3902,12 @@
       "zone_en": "All across Leonida",
       "description": "22 banques à braquer, toutes requises pour le 100 %.",
       "description_en": "22 banks to rob, all required for 100%.",
-      "indice": "",
+      "indice": "22 banques = 14 petites + 8 grandes. Les petites se débloquent au chapitre 3 après la mission Credit Check (réparties : 9 en Vice-Dale, 3 en Mariana, 1 en Leonard, 1 en Kelly ; butin d’environ 5 000 à 45 000 $). Les 8 coffres des grandes banques s’ouvrent après « That’s Where The Money Is… » : le coffre ne s’ouvre qu’à l’arrivée d’un fourgon blindé, qu’on suit à l’intérieur. L’argent sort en billets marqués à écouler chez un fourgue avant de pouvoir être dépensé ; prévoir une moto rapide puis un changement de véhicule pour la fuite.",
       "total": 22,
       "requis": 22,
       "spoiler": false,
-      "verifie": true
+      "verifie": true,
+      "indice_en": "22 banks = 14 small + 8 large. Small ones unlock in chapter 3 after the Credit Check mission (split: 9 in Vice-Dale, 3 in Mariana, 1 in Leonard, 1 in Kelly; takes of roughly $5,000–$45,000). The 8 large-bank vaults open after “That’s Where The Money Is…”: the vault only opens when an armored cash truck arrives, which you follow inside. Cash comes out as marked bills to launder through a fence before spending; plan a fast bike then a vehicle switch for the getaway."
     },
     {
       "id": "check-coll-prets-salaire",
@@ -3921,11 +3952,12 @@
       "zone_en": "All across Leonida",
       "description": "50 braquages éclair sur 91 selon une source. À confirmer.",
       "description_en": "50 of 91 stick-ups according to one source. To be confirmed.",
-      "indice": "",
+      "indice": "Le 50 sur 91 est maintenant confirmé par plusieurs guides (PowerPyx et d’autres) : notre ligne « à confirmer » peut passer en vérifié. Cibles : supérettes, fast-foods et magasins d’alcool — entrer, braquer le caissier avec une arme, rafler la caisse et filer. Il faut 50 magasins DIFFÉRENTS : rebraquer le même ne compte pas. Suivi : Carte → Braquages (icône sac d’argent) → Stick Ups ; rien n’est manquable, tout reste faisable après l’histoire. Ne pas confondre avec le défi en jeu « Stick Ups » (3 magasins en une journée sans mourir ni être arrêté).",
       "total": 91,
       "requis": 50,
       "spoiler": false,
-      "verifie": false
+      "verifie": true,
+      "indice_en": "The 50 of 91 is now confirmed by several guides (PowerPyx and others): our “to be confirmed” line can go verified. Targets: convenience stores, fast food places and liquor stores — walk in, aim a gun at the cashier, grab the register cash and leave. You need 50 DIFFERENT stores: re-robbing the same one doesn’t count. Track: Map → Robberies (money bag icon) → Stick Ups; nothing is missable, everything stays doable after the story. Don’t confuse with the in-game “Stick Ups” challenge (3 stores in one day without dying or arrest)."
     },
     {
       "id": "check-recel-stupefiants",
@@ -4226,12 +4258,12 @@
       "zone_en": "All across Leonida",
       "description": "112 œuvres en 11 sets selon la plupart des sources (une dit 56). Suivi à part dans Collections : ne compte PAS pour le 100 % ni pour les scans WAiNK.",
       "description_en": "112 pieces in 11 sets per most sources (one says 56). Tracked separately in Collections: does NOT count toward 100% or WAiNK scans.",
-      "indice": "Se scanne comme les WAiNK.",
-      "indice_en": "Scanned like WAiNK spots.",
+      "indice": "Se scanne comme les WAiNK. Le total de 112 est confirmé par plusieurs guides (le suivi en jeu affiche X/112) ; le chiffre 56 ne se retrouve nulle part et les cartes à 47 ou 83 points sont simplement incomplètes. Ce sont des objets de rue peints par l’artiste de Miami Ahol Sniffs Glue — matelas, cônes, frigos, meubles jetés — reconnaissables à son motif d’yeux : cherchez dans les ruelles, arrière-cours et parkings plutôt que sur les grands murs. Tout scanner débloque la Blista Ahol, un véhicule unique. Suivi : Progression → Collections → Ahol Street Art.",
+      "indice_en": "Scanned like WAiNK spots. The 112 total is confirmed by several guides (in-game tracker shows X/112); the 56 figure appears nowhere, and maps with 47 or 83 pins are simply incomplete. These are street objects painted by Miami artist Ahol Sniffs Glue — mattresses, traffic cones, fridges, discarded furniture — recognizable by his eye motif: check alleys, service yards and car parks rather than big walls. Scanning them all unlocks the Ahol Blista, a one-off vehicle. Track: Progress → Collections → Ahol Street Art.",
       "total": 112,
       "requis": 0,
       "spoiler": false,
-      "verifie": false
+      "verifie": true
     },
     {
       "id": "check-coll-murals-1010",
@@ -4243,8 +4275,8 @@
       "zone_en": "Vice City",
       "description": "5 fresques, toutes à Vice City. Ne comptent pas pour le 100 %.",
       "description_en": "5 murals, all in Vice City. Don’t count toward 100%.",
-      "indice": "Se photographient avec l’appareil du téléphone (pas un scan).",
-      "indice_en": "Photograph them with the phone camera (not a scan).",
+      "indice": "Se photographient avec l’appareil du téléphone (pas un scan). Toujours aucun guide dédié trouvé. Seul apport : 1010 est un muraliste allemand de Hambourg au style reconnaissable — formes biomorphiques colorées en couches donnant une illusion de profondeur, utile pour repérer les fresques à l’œil (fiche wiki encore marquée spéculative). Les emplacements précis des 5 fresques restent à documenter. Source unique, à confirmer.",
+      "indice_en": "Photograph them with the phone camera (not a scan). Still no dedicated guide found. Only addition: 1010 is a German muralist from Hamburg with a recognizable style — colorful, layered biomorphic shapes creating a depth illusion, useful for spotting the murals by eye (wiki page still flagged speculative). The exact locations of the 5 murals remain undocumented. Single source, to be confirmed.",
       "total": 5,
       "requis": 0,
       "spoiler": false,
@@ -4260,10 +4292,10 @@
       "zone_en": "Vice City",
       "description": "Suis les lignes électriques de Leonida jusqu’à des sous-stations, et presse leurs boutons dans l’ordre qui épelle « Life is passing me by » (la phrase du code de vitesse du Vice City de 2002). Un texto t’oriente alors vers une centrale électrique à certaines heures. Récompense : la chemise hawaïenne de Tommy Vercetti et une moto — et le passage vers le Vice City d’époque.",
       "description_en": "Follow Leonida’s power lines to substations and press their buttons in the order spelling “Life is passing me by” (the 2002 Vice City speed cheat phrase). A text then points you to a power plant at specific hours. Reward: Tommy Vercetti’s Hawaiian shirt and a motorcycle — and the trip back to PS2-era Vice City.",
-      "indice": "Découvert par Memeio après trois jours à suivre les lignes électriques. Vérifié sur la version 01.002.001.",
+      "indice": "Découvert par Memeio après trois jours à suivre les lignes électriques. Vérifié sur la version 01.002.001. Précision sur la destination : le voyage rétro ne couvre pas toute la ville — il ramène au Malibu Club du Vice City de 2002, avec en prime la chemise hawaïenne de Tommy Vercetti et sa moto. Couverture large cette semaine (Forbes, VGC, FreeYork), tous citant la découverte de Memeio via les lettres repérées sur les murs des sous-stations électriques. Aucune source ne décrit encore d’autres activités possibles à l’intérieur de la zone rétro.",
       "spoiler": false,
       "verifie": true,
-      "indice_en": "Found by Memeio after three days of following power lines. Verified on version 01.002.001."
+      "indice_en": "Found by Memeio after three days of following power lines. Verified on version 01.002.001. Destination clarified: the retro trip doesn’t cover the whole city — it takes you back to the Malibu Club from 2002’s Vice City, plus Tommy Vercetti’s Hawaiian shirt and his motorbike. Broad coverage this week (Forbes, VGC, FreeYork), all citing Memeio’s discovery via the letters spotted on power-substation walls. No source yet describes anything else you can do inside the retro area."
     },
     {
       "id": "check-arme-hl38-donnie",
@@ -4487,8 +4519,8 @@
       "zone_en": "All across Leonida",
       "description": "55 trophées PS5 : 1 platine (« Vice Got a Price! »), 2 or, 6 argent, 46 bronze — 28 sont cachés (missions d’histoire et fins de chaînes de personnages). Suivi libre : indépendant du 100 % du jeu.",
       "description_en": "55 PS5 trophies: 1 Platinum (“Vice Got a Price!”), 2 Gold, 6 Silver, 46 Bronze — 28 are hidden (story missions and character-arc finales). Free tracking: separate from in-game 100%.",
-      "indice": "Secrets cryptiques notables : « Catch Me If You Can » (quitter le VCIA de façon imprévue) et « The Truth Is Out There » (enlèvement OVNI nocturne à Kelly). La checklist 100 % du jeu n’apparaît qu’après la fin de l’histoire : Progression → Stats → 100% Completion.",
-      "indice_en": "Notable cryptic ones: “Catch Me If You Can” (leave the VCIA in an unplanned way) and “The Truth Is Out There” (nighttime UFO abduction in Kelly). The in-game 100% checklist only appears after finishing the story: Progress → Stats → 100% Completion.",
+      "indice": "Secrets cryptiques notables : « Catch Me If You Can » (quitter le VCIA de façon imprévue) et « The Truth Is Out There » (enlèvement OVNI nocturne à Kelly). La checklist 100 % du jeu n’apparaît qu’après la fin de l’histoire : Progression → Stats → 100% Completion. Aucun trophée en ligne au lancement : le platine est 100 % solo et exige le 100 % en jeu (35 lignes de complétion) ; comptez 100 à 200 h selon les guides. 12 trophées tombent automatiquement en finissant l’histoire. Attention : aucune des listes consultées ne confirme les noms « Catch Me If You Can » ni « The Truth Is Out There » — la plupart masquent les 28 trophées cachés, et une fausse liste « leakée » a circulé début novembre ; à revérifier. Exemple confirmé : « Just Like Paradise » (terminer Gone Fishing).",
+      "indice_en": "Notable cryptic ones: “Catch Me If You Can” (leave the VCIA in an unplanned way) and “The Truth Is Out There” (nighttime UFO abduction in Kelly). The in-game 100% checklist only appears after finishing the story: Progress → Stats → 100% Completion. No online trophies at launch: the Platinum is fully single-player and requires in-game 100% (35 completion lines); expect 100–200 hours per guides. 12 trophies drop automatically from finishing the story. Caution: none of the lists checked confirm the names “Catch Me If You Can” or “The Truth Is Out There” — most mask the 28 hidden trophies, and a fake “leaked” list circulated in early November; recheck. Confirmed example: “Just Like Paradise” (complete Gone Fishing).",
       "total": 55,
       "requis": 0,
       "spoiler": false,
@@ -4504,8 +4536,8 @@
       "zone_en": "All across Leonida",
       "description": "9 animaux Snapmatic (cerf, crocodile, alligator du golf, sanglier, alligator des marais, ours noir, coyote, renard blanc, panthère) débloqués par les indices de Bret au chapitre 2, + 2 légendaires sans indice dont la Gang Panther. Suivi libre : lien exact avec le 100 % à confirmer.",
       "description_en": "9 Snapmatic animals (buck, crocodile, golf course alligator, wild boar, swamp alligator, black bear, coyote, white fox, panther) unlocked via Bret’s clues in chapter 2, + 2 clueless legendaries including the Gang Panther. Free tracking: exact 100% link to be confirmed.",
-      "indice": "Panthère Snapmatic : Belpoint Island, à l’ouest de Capri. Gang Panther : extrême nord-est de la carte, côté sud-est des Frampton Islands — livrée en état Parfait à Bret, paie le tarif légendaire.",
-      "indice_en": "Snapmatic Panther: Belpoint Island, west of Capri. Gang Panther: far northeast of the map, southeast side of the Frampton Islands — delivered Pristine to Bret, pays the legendary rate.",
+      "indice": "Panthère Snapmatic : Belpoint Island, à l’ouest de Capri. Gang Panther : extrême nord-est de la carte, côté sud-est des Frampton Islands — livrée en état Parfait à Bret, paie le tarif légendaire. Le total de 11 se confirme (deux guides titrent « All 11 Snapmatic & Legendary Animal Locations ») mais un troisième n’en compte que 9 — vraisemblablement ceux avec indices de Bret seulement, ce qui colle à notre 9+2. La panthère Snapmatic paie entre 8 600 $ et 15 000 $ selon l’état. La chasse aux cibles de Bret est exclusive à Jason, suivie via Progression → Contacts → Bret Vogel. Ne pas confondre avec le défi Legendary Hunter, qui demande 8 animaux uniques et est suivi à part.",
+      "indice_en": "Snapmatic Panther: Belpoint Island, west of Capri. Gang Panther: far northeast of the map, southeast side of the Frampton Islands — delivered Pristine to Bret, pays the legendary rate. The 11 total firms up (two guides title “All 11 Snapmatic & Legendary Animal Locations”) but a third counts only 9 — likely only those with Bret clues, which matches our 9+2 split. The Snapmatic Panther pays $8,600–$15,000 depending on condition. Bret’s target hunting is Jason-exclusive, tracked via Progress → Contacts → Bret Vogel. Don’t confuse with the Legendary Hunter challenge, which asks for 8 unique animals and is tracked separately.",
       "total": 11,
       "requis": 0,
       "spoiler": false,
@@ -4570,17 +4602,18 @@
       "titre_en": "Room 701 at the Y (Ocean Beach)",
       "type": "lieu",
       "region": "vice-dale",
-      "zone": "Ocean Beach",
-      "zone_en": "Ocean Beach",
+      "zone": "Y Hotel — strip de Washington Beach (contesté vs Ocean Beach)",
+      "zone_en": "Y Hotel — Washington Beach strip (disputed vs Ocean Beach)",
       "description": "Hôtel d’Ocean Beach, débloqué par l’histoire.",
       "description_en": "Ocean Beach hotel, story-unlocked.",
-      "indice": "",
+      "indice": "Les guides post-lancement décrivent une planque par chapitre : la chambre 701 du Y Hotel serait celle du chapitre 4. Contradiction de zone : plusieurs sources la placent sur le strip de Washington Beach, pas à Ocean Beach — à revérifier en jeu. Les planques offrent sauvegarde, tenue, frigo, TV, coiffure et coffre de voiture ; elles ne s’achètent jamais (déblocage 100 % histoire).",
       "spoiler": false,
       "verifie": true,
       "pos": {
         "x": 80,
         "y": 44
-      }
+      },
+      "indice_en": "Post-launch guides describe one safehouse per chapter: Room 701 at the Y Hotel would be Chapter 4’s. Zone contradiction: several sources place it on the Washington Beach strip, not Ocean Beach — to re-check in game. Safehouses offer saving, outfits, fridge, TV, haircuts and car-trunk storage; they can never be bought (100% story-unlocked)."
     },
     {
       "id": "mission-opt-c1-catch-a-bigger-fish",
@@ -4795,8 +4828,8 @@
       "zone_en": "All across Leonida",
       "description": "42 contre-la-montre de drone répartis sur 14 lieux, tous requis pour le 100 %.",
       "description_en": "42 drone time trials across 14 locations, all required for 100%.",
-      "indice": "Pour le 3e essai de chaque lieu, finir suffit : pas besoin de battre le temps.",
-      "indice_en": "For each location’s 3rd trial, just finishing counts: no need to beat the time.",
+      "indice": "Pour le 3e essai de chaque lieu, finir suffit : pas besoin de battre le temps. Précision sur le déblocage : il faut battre le par des essais 1 et 2 d’un lieu pour ouvrir le 3e, que l’on valide en le finissant simplement. Le trophée bronze Top Fun ne demande qu’une victoire par lieu (14). Dix lieux nommés avec leur par : Deep Roots (1:31), Power Station South (1:26) et North (2:04), Leonida RC Raceway (1:27), Watson Bay (1:34), Marshland Animal Park (1:17), Capri Train Station (1:50), Ravella Drive (1:51), Capri Lake (2:01), Kowaachobee Village ; autres lieux cités : Moreau Sawmill et Millport. Compteur séparé des courses auto.",
+      "indice_en": "For each location’s 3rd trial, just finishing counts: no need to beat the time. Unlock clarification: you must beat par on a location’s trials 1 and 2 to open the 3rd, which counts just by finishing it. The bronze Top Fun trophy only needs one win per location (14). Ten named venues with par: Deep Roots (1:31), Power Station South (1:26) and North (2:04), Leonida RC Raceway (1:27), Watson Bay (1:34), Marshland Animal Park (1:17), Capri Train Station (1:50), Ravella Drive (1:51), Capri Lake (2:01), Kowaachobee Village; also cited: Moreau Sawmill and Millport. Separate counter from car races.",
       "total": 42,
       "requis": 42,
       "spoiler": false,
@@ -4826,8 +4859,8 @@
       "zone_en": "All across Leonida",
       "description": "35 espèces, de l’Atlantic Tarpon au Black Grouper (noms parfois divergents entre guides : « Leonida Gar » vs « Florida Gar »). Toutes nécessaires au défi de survie Pro Angler. Suivi libre : pas de ligne 100 % propre.",
       "description_en": "35 species, from Atlantic Tarpon to Black Grouper (names sometimes differ across guides: “Leonida Gar” vs “Florida Gar”). All needed for the Pro Angler survival challenge. Free tracking: no dedicated 100% line.",
-      "indice": "Suivi en jeu : Progression → Activités → Pêche. Gros spécimens marins : tarpon, grand barracuda, murène verte, permit (pour le défi Big Fish, 20 lb).",
-      "indice_en": "In-game tracking: Progress → Activities → Fishing. Large marine species: tarpon, great barracuda, green moray, permit (for the 20 lb Big Fish challenge).",
+      "indice": "Suivi en jeu : Progression → Activités → Pêche. Gros spécimens marins : tarpon, grand barracuda, murène verte, permit (pour le défi Big Fish, 20 lb). Total de 35 espèces confirmé par PowerPyx et GTABase ; le menu Progression l’affiche comme « Fishing (35 Species) ». La pêche est 100 % no-kill : tout est relâché, impossible de garder ou vendre une prise, le défi Pro Angler se valide en attrapant chaque espèce une fois (les doublons ne comptent pas). La pêche est disponible dès qu’on contrôle Jason librement. Les divergences de noms persistent entre guides (Atlantic Thread Herring vs Atlantic Herring, Leonida Gar vs Florida Gar) : prudence sur les hotspots précis.",
+      "indice_en": "In-game tracking: Progress → Activities → Fishing. Large marine species: tarpon, great barracuda, green moray, permit (for the 20 lb Big Fish challenge). 35-species total confirmed by PowerPyx and GTABase; the Progress menu shows it as “Fishing (35 Species)”. Fishing is fully catch-and-release: everything goes back, you can’t keep or sell a catch, and the Pro Angler challenge completes by catching each species once (duplicates don’t count). Fishing is available as soon as you control Jason freely. Name divergences persist across guides (Atlantic Thread Herring vs Atlantic Herring, Leonida Gar vs Florida Gar): be careful with precise hotspots.",
       "total": 35,
       "requis": 0,
       "spoiler": false,
@@ -4839,12 +4872,12 @@
       "titre_en": "Random encounters",
       "type": "secret",
       "region": "leonida",
-      "zone": "Partout en Leonida",
-      "zone_en": "All across Leonida",
+      "zone": "Crash d’avion : marais près de Hamlet",
+      "zone_en": "Plane crash: swamps near Hamlet",
       "description": "Environ 1 000 rencontres et 500 événements ambiants selon Rockstar (chiffres relayés par la presse, non vérifiés) : crash d’avion avec cargaison, tigre dans un motel, « Operation Furball »… Les rencontres interactives ne reviennent pas une fois terminées.",
       "description_en": "About 1,000 encounters and 500 ambient events per Rockstar (press-relayed figures, unverified): plane crash with cargo, tiger in a motel, “Operation Furball”… Interactive encounters don’t return once completed.",
-      "indice": "La plupart n’ont AUCUNE icône sur la carte du jeu : elles se trouvent en roulant.",
-      "indice_en": "Most have NO map icon in game: you find them by driving around.",
+      "indice": "Toujours aucune liste publiée : la base de données de GTABase reste entièrement « à venir ». Première rencontre documentée en détail : un crash d’avion dans les marais près de Hamlet — suis la colonne de fumée jusqu’à l’épave ; les sacs de cocaïne se revendent 990 $ chez Brian et un pistolet lance-fusées gît près du pilote ; l’auteur ne l’a vue qu’une fois (non répétable, cohérent avec l’indice actuel). Rockstar confirme en interview plus de 1 000 rencontres regroupées en plusieurs types.",
+      "indice_en": "Still no published list: GTABase’s database remains entirely “coming soon”. First encounter documented in detail: a plane crash in the swamps near Hamlet — follow the smoke column to the wreck; the cocaine bags sell for $990 at Brian’s and a flare gun lies next to the pilot; the author only saw it once (non-repeatable, consistent with the current hint). Rockstar confirms in an interview over 1,000 encounters grouped into several types.",
       "spoiler": false,
       "verifie": false
     },
@@ -4854,14 +4887,42 @@
       "titre_en": "The radio tower cutscene",
       "type": "secret",
       "region": "leonida",
-      "zone": "Sud de Vice-Dale County (contesté)",
-      "zone_en": "Southern Vice-Dale County (disputed)",
+      "zone": "Sud de Vice-Dale County — ouest de Southside et Peacock Bay",
+      "zone_en": "Southern Vice-Dale County — west of Southside and Peacock Bay",
       "description": "Une cinématique secrète se déclenche au sommet d’une tour de communications de Leonida, après environ sept minutes d’escalade. À confirmer.",
       "description_en": "A secret cutscene triggers at the top of a Leonida communications tower, after roughly a seven-minute climb. To be confirmed.",
-      "indice": "Franchis la clôture d’une grande tour radio, grimpe jusqu’au sommet (6 à 7 minutes d’ascension), inspecte le nid et jette l’œuf par-dessus la rambarde : une cinématique montre l’œuf s’écraser sur le pare-brise d’un véhicule en contrebas. L’emplacement exact est contesté : sud de Vice-Dale County pour la plupart des guides, mais d’autres citent le Bluegrass Radio Mast (au nord de Hamlet) ou une tour au nord de Key Lento — le découvreur (xGarbett) n’a pas révélé la tour exacte.",
+      "indice": "La communauté n’a pas officiellement tranché (le découvreur xGarbett reste muet), mais deux guides détaillés convergent désormais sur la tour du sud de Vice-Dale County, à l’ouest de Southside et de Peacock Bay. Bonus au même sommet : un personnage perché sur l’antenne prête un parachute pour le Base Jump n° 1 (sur 25), avec un temps à battre. Ne pas confondre avec la tour radio de Washington Island, qui abrite une rencontre d’influenceur distincte.",
       "spoiler": false,
       "verifie": false,
-      "indice_en": "Cross the fence around a tall radio tower, climb to the top (a 6–7 minute ascent), inspect the nest and throw the egg over the railing: a cutscene shows the egg smashing on the windshield of a vehicle below. The exact spot is disputed: most guides say southern Vice-Dale County, others name the Bluegrass Radio Mast (north of Hamlet) or a tower north of Key Lento — the discoverer (xGarbett) hasn’t revealed the exact tower."
+      "indice_en": "The community hasn’t formally settled it (discoverer xGarbett stays silent), but two detailed guides now converge on the southern Vice-Dale County tower, west of Southside and Peacock Bay. Bonus at the same summit: a figure perched on the antenna lends a parachute for Base Jump #1 (of 25), with a par time to beat. Don’t confuse it with the Washington Island radio tower, which hosts a separate influencer encounter."
+    },
+    {
+      "id": "check-secret-vault-radio",
+      "titre": "The Vault Radio (station radio secrète)",
+      "titre_en": "The Vault Radio (secret radio station)",
+      "type": "secret",
+      "region": "vice-dale",
+      "zone": "The Vault, Downtown Vice City",
+      "zone_en": "The Vault, Downtown Vice City",
+      "description": "Entre dans la boîte de nuit The Vault, à Downtown Vice City (à l’ouest du NINE1NINE, au sud du Jack of Hearts). Juste après l’entrée principale, repère l’affiche au masque à gaz et scanne-la avec l’appli WAiNK du téléphone : la station « The Vault Radio » (électro/rave — les morceaux joués dans le club) apparaît alors dans le menu radio, écoutable en véhicule.",
+      "description_en": "Go inside The Vault nightclub in Downtown Vice City (west of NINE1NINE, south of Jack of Hearts). Just past the front entrance, find the gas-mask poster and scan it with the phone’s WAiNK app: “The Vault Radio” station (electronic/rave — the club’s own tracks) then appears in the radio menu, playable in a vehicle.",
+      "indice": "",
+      "spoiler": false,
+      "verifie": true
+    },
+    {
+      "id": "check-secret-sniper-la-perle",
+      "titre": "La playlist « The Sniper of La Perle » (Kodak Black)",
+      "titre_en": "“The Sniper of La Perle” playlist (Kodak Black)",
+      "type": "secret",
+      "region": "vice-dale",
+      "zone": "La Perle et Crosstown, Vice City",
+      "zone_en": "La Perle and Crosstown, Vice City",
+      "description": "Scanne 4 affiches réparties entre La Perle et Crosstown (appli du téléphone) pour débloquer « The Sniper of La Perle », animée par Kodak Black, accessible ensuite via Radio > On Demand. Contradiction de statut : Billboard en parle comme d’une station radio secrète, le guide détaillé comme d’une playlist à la demande.",
+      "description_en": "Scan 4 posters spread across La Perle and Crosstown (phone app) to unlock “The Sniper of La Perle”, hosted by Kodak Black, then found under Radio > On Demand. Status contradiction: Billboard calls it a secret radio station, the detailed guide an on-demand playlist.",
+      "indice": "",
+      "spoiler": false,
+      "verifie": false
     }
   ],
   "regions": [
