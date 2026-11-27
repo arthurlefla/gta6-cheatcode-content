@@ -1,5 +1,5 @@
 {
-  "genere": "2026-11-27T14:52:51.627Z",
+  "genere": "2026-11-27T15:53:14.277Z",
   "codes": [
     {
       "id": "code-joueur-250000",
@@ -37029,6 +37029,43 @@
       "n": "Kitty Litter Lab: North Crosstown Lockup",
       "x": 72.8,
       "y": 66.2
+    }
+  ],
+  "nouveautes": [
+    {
+      "date": "2026-11-27",
+      "titre": "La carte passe aux 5 000 points",
+      "titre_en": "The map goes to 5,000 points",
+      "texte": "Nouvelle carte fidèle à la vraie géographie de Leonida, avec 7 calques filtrables : 306 coffres, 634 easter eggs et événements, 221 armes, 481 véhicules, 2 283 collectibles, 785 activités, 211 braquages. Touche un point pour voir son nom.",
+      "texte_en": "New map faithful to Leonida’s real geography, with 7 filterable layers: 306 safes, 634 easter eggs and events, 221 weapons, 481 vehicles, 2,283 collectibles, 785 activities, 211 robberies. Tap a point to see its name."
+    },
+    {
+      "date": "2026-11-27",
+      "titre": "Tous les codes de coffres connus",
+      "titre_en": "Every known safe code",
+      "texte": "La fiche Coffres-forts liste désormais 61 codes confirmés (Kingpin Bowling 0300, Brooks Boatworks 6823, Marbelle 955214, bijouteries de Yasmani 1680/6815/0104…), avec la règle : certains coffres de boutiques changent selon la partie.",
+      "texte_en": "The Safes page now lists 61 confirmed codes (Kingpin Bowling 0300, Brooks Boatworks 6823, Marbelle 955214, Yasmani’s jewelry stores 1680/6815/0104…), with the rule: some shop safes vary per playthrough."
+    },
+    {
+      "date": "2026-11-27",
+      "titre": "75 nouveaux easter eggs",
+      "titre_en": "75 new easter eggs",
+      "texte": "La section Easter eggs passe à 103 entrées localisées : Combat contre Satan, le bloc Super Mario, le nain de jardin Vercetti, le fantôme de Rockledge Road, le monstre du marais…",
+      "texte_en": "The Easter eggs section grows to 103 located entries: the Satan fight, the Super Mario block, the Vercetti garden gnome, the Rockledge Road ghost, the swamp monster…"
+    },
+    {
+      "date": "2026-11-27",
+      "titre": "Les 35 montres de luxe localisées",
+      "titre_en": "All 35 luxury watches located",
+      "texte": "Chaque montre épinglée par la communauté, lieu par lieu, codes de coffres compris (yacht coulé : 731997). Et les sous-compteurs façon carte interactive : 18 sets de cartes, 4 familles de cascades, 5 types de scans WAiNK.",
+      "texte_en": "Every community-pinned watch, place by place, safe codes included (sunken yacht: 731997). Plus interactive-map-style sub-counters: 18 card sets, 4 stunt families, 5 WAiNK scan types."
+    },
+    {
+      "date": "2026-11-26",
+      "titre": "L'arbre des fins enfin clair",
+      "titre_en": "The endings tree, finally clear",
+      "texte": "Le prédicteur intègre les critères vérifiés : relation « Hot Together » (4/4), épargne familiale 2 M$, profil criminel (5 niveaux), et les choix du pont et de la tour de Giorgio. Sauvegarde manuelle avant « Protective Custody ».",
+      "texte_en": "The predictor now uses the verified criteria: “Hot Together” relationship (4/4), $2M family savings, criminal profile (5 levels), and the bridge and Giorgio tower choices. Manual save before “Protective Custody”."
     }
   ]
 }
