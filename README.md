@@ -1,6 +1,6 @@
-# Contenu distant — Cheatcode : Leonida 100 %
+# Contenu distant — Leonida 100 %
 
-Contenu (codes, checklist, régions) de l’app **Cheatcode : Leonida 100 %**,
+Contenu (codes, checklist, régions) de l’app **Leonida 100 %**,
 compagnon 100 % non officiel pour GTA VI.
 
 - `content.json` : le contenu complet, téléchargé par l’app au lancement
